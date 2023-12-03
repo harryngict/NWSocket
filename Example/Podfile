@@ -5,7 +5,7 @@ platform :ios, '12.0'
 use_frameworks!
 
 target 'Example' do
-  pod 'Socket',  :path => '../'
+  pod 'NWSocket',  :path => '../'
 end
 
 target 'ExampleTests' do

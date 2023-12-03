@@ -1,16 +1,16 @@
 PODS:
-  - Socket (0.0.1)
+  - NWSocket (0.0.1)
 
 DEPENDENCIES:
-  - Socket (from `../`)
+  - NWSocket (from `../`)
 
 EXTERNAL SOURCES:
-  Socket:
+  NWSocket:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Socket: fb0c938d9a152516c9a2e5d932d61a7eee550a29
+  NWSocket: 06b2253380243b2f60a5d0cb46d19d97ae909466
 
-PODFILE CHECKSUM: 4f8c32301f68b8f2ed9cb5f3bd6c7e6709bfd421
+PODFILE CHECKSUM: 628449882b1dcc7db101eed4444c89e0b753e971
 
 COCOAPODS: 1.14.3

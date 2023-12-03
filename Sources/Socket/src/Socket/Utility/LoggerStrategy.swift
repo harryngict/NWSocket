@@ -7,17 +7,15 @@
 
 import Foundation
 
-public extension Socket {
-    enum LoggerStrategy {
-        /// Disables logging for network operations.
-        case disabled
+public enum LoggerStrategy {
+    /// Disables logging for network operations.
+    case disabled
 
-        /// Enables default logging for network operations.
-        case enabled
+    /// Enables default logging for network operations.
+    case enabled
 
-        /// Enables custom logging for network operations using the specified logger.
-        ///
-        /// Use this strategy when you want to customize the logging behavior during network operations. Provide a custom `LoggerInterface` to handle logging.
-        case custom(Logger)
-    }
+    /// Enables custom logging for network operations using the specified logger.
+    ///
+    /// Use this strategy when you want to customize the logging behavior during network operations. Provide a custom `LoggerInterface` to handle logging.
+    case custom(Logger)
 }

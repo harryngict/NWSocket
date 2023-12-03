@@ -10,7 +10,7 @@ import Network
 
 public struct SocketConfiguration {
     /// SSL pinning policy for the socket connection. Default is `.disabled`.
-    public let sslPinningPolicy: Socket.SSLPinningPolicy
+    public let sslPinningPolicy: SSLPinningPolicy
 
     /// The type of connection for the socket. Default is `.udp`.
     public let socketType: SocketType
@@ -31,7 +31,7 @@ public struct SocketConfiguration {
     public init(socketType: SocketType = .udp,
                 maximumLength: UInt64 = 65536,
                 minimumIncompleteLength: UInt64 = 1,
-                sslPinningPolicy: Socket.SSLPinningPolicy = .disabled)
+                sslPinningPolicy: SSLPinningPolicy = .disabled)
     {
         self.socketType = socketType
         self.maximumLength = maximumLength
